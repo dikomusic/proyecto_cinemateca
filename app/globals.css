@@ -24,3 +24,17 @@ body {
   color: var(--color-text-primary);
   font-family: var(--font-sans);
 }
+
+/* Estilos adicionales */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Placeholder para imágenes */
+img[src=""],
+img:not([src]) {
+  background: linear-gradient(45deg, #1f2937, #374151);
+}
